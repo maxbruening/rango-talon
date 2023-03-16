@@ -41,7 +41,7 @@ tab close first [<number_small>]:
   user.rango_command_without_target("closeTabsLeftEndInWindow", number_small or 1)
 tab close final [<number_small>]:
   user.rango_command_without_target("closeTabsRightEndInWindow", number_small or 1)
-tab close previous [<number_small>]:
+tab close (previous | pre) [<number_small>]:
   user.rango_command_without_target("closePreviousTabsInWindow", number_small or 1)
 tab close next [<number_small>]:
   user.rango_command_without_target("closeNextTabsInWindow", number_small or 1)
